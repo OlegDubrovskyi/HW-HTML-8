@@ -1,0 +1,270 @@
+#section1{
+    width: 100%;
+    background-image: url(../img/background1.jpg);
+    background-position: center center;
+    padding-bottom: 339px;
+       
+}
+
+.block1>h1{
+    font-family: GothamPB;
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 72px;
+    margin-bottom: 14px;
+}
+
+.promo{
+    font-size: 30px;
+    font-family: GothamPro;
+    margin-left: 213px;
+    line-height: 0.733;
+    letter-spacing: 3px;
+    color: #ffffff;
+    margin-top: 11px;
+}
+
+.block2>p:nth-child(1){
+    font-size: 43px;
+    font-family: GothamP;
+    line-height: 1.2;
+    color: #b6f1ff;
+    margin-top: 102px;
+}
+
+.block2>p:nth-child(2){
+    font-size: 30px;
+    font-family: GothamPL;
+    line-height: 1.6;
+    color: #ffffff;
+    margin-top: 54px;
+}
+
+.button{
+    background-color: #ff1744;
+    margin-right: 38%;
+    border-radius: 5px;
+    margin-top: 67px;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 24px;
+    font-family: GothamPb;
+    text-transform: uppercase;
+    line-height: 0.917;
+    padding: 24px;
+    text-align: center; 
+}
+
+.wrapper{
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title1{
+    text-align: center;
+    color: #ffffff;
+}
+
+.block2{
+    float: right;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.section2{
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 18px;
+}
+
+.container1{
+    width: 1116px;
+    overflow: hidden;
+    margin: auto;
+}
+
+h2{
+    font-size: 49px;
+    font-family: GothamP;
+    text-align: center;
+    line-height: 64px;
+}
+
+ [class*="blk"]{
+    float: left;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-left: 32px;
+    margin-bottom: 10px;
+    width: 242px;
+    height: 190px;
+}
+
+[class*="textContainer"]{
+    text-align: center;
+    font-size: 20px;
+    font-family: GothamPM;
+    line-height: 1.5;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+[class*="dsc"]{
+    text-align: center;
+    font-size: 18px;
+    font-family: GothamP;
+    line-height: 1.5;
+}
+
+[class*="img"]{
+    margin: auto;
+    height: 71px;
+    width: 65px;
+    background: no-repeat;
+}
+
+.img1{
+    background-image: url(../img/man.png);
+}
+
+.img2{
+    background-image: url(../img/teacher.png);
+}
+
+.img3{
+    background-image: url(../img/sale.png);
+}
+
+.img4{
+    background-image: url(../img/clock.png);
+}
+
+.img5{
+    background-image: url(../img/money.png);
+}
+
+.img6{
+    background-image: url(../img/pazzle.png);
+}
+
+.img7{
+    background-image: url(../img/pointer.png);
+}
+
+.img8{
+    background-image: url(../img/rocket.png);
+}
+
+.img9{
+    background-image: url(../img/hands.png);
+}
+
+.img10{
+    background-image: url(../img/ship.png);
+}
+
+.lastBlock{
+    margin: 0 auto;
+    width: 560px;
+}
+
+[class*="sectionEvent"]{
+    background-color: #f5f5f5;
+    width: 100%;
+    overflow: hidden;
+}
+
+.month{
+    font-size: 24px;
+    font-family: GothamP;
+    line-height: 0.917;
+    text-align: center;
+    margin-top: 9px;
+}
+
+[class*=containerBlock]{
+    width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+[class="posterImg1"]{
+    background-image: url(../img/poster1.png);
+    float: left;
+}
+
+[class*="posterSum"]{
+    font-size: 24px;
+    font-family: GothamP;
+    line-height: 1.25;
+    margin-top: 36px;
+    margin-bottom: 50px;
+}
+
+[class*="posterTitle"]{
+    font-size: 48px;
+    font-family: GothamP;
+    line-height: 0.458;
+    margin-top: 119px;
+}
+
+[class*="posterText"]{
+  font-size: 18px;
+  font-family: GothamP;
+  line-height: 1.667;
+}
+
+[class*="Part"]{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.event{
+    margin-bottom: 10px;
+}
+
+.line{
+    margin-top: 111px;
+}
+
+[class="posterImg2"]{
+    background-image: url(../img/poster2.png);
+    float: right;
+}
+
+[class*="posterImg"]{
+    width: 384px;
+    height: 524px;
+    margin-right: 122px;
+    margin-top: 41px;
+    margin-left: 53px;
+}
+
+[class="posterImg3"]{
+    background-image: url(../img/poster3.png);
+    float: left;
+}
+
+[class="posterImg4"]{
+    background-image: url(../img/poster4.png);
+    float: right;
+}
+
+.posterContain4{
+    text-align: right;
+}
+
+.posterContain2{
+    text-align: right;
+}

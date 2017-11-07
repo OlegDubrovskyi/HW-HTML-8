@@ -2,8 +2,13 @@
     width: 100%;
     background-image: url(../img/background1.jpg);
     background-position: center center;
-    padding-bottom: 339px;
-       
+    padding-bottom: 339px;     
+}
+
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .block1>h1{
@@ -63,12 +68,6 @@
     text-align: center; 
 }
 
-.wrapper{
-    width: 1100px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
 .title1{
     text-align: center;
     color: #ffffff;
@@ -87,12 +86,6 @@
     padding-bottom: 18px;
 }
 
-.container1{
-    width: 1116px;
-    overflow: hidden;
-    margin: auto;
-}
-
 h2{
     font-size: 49px;
     font-family: GothamP;
@@ -100,17 +93,16 @@ h2{
     line-height: 64px;
 }
 
- [class*="blk"]{
+ .blk{
     float: left;
     margin-top: 50px;
     margin-right: 5px;
     margin-left: 32px;
     margin-bottom: 10px;
     width: 242px;
-    height: 190px;
 }
 
-[class*="textContainer"]{
+.textContainer{
     text-align: center;
     font-size: 20px;
     font-family: GothamPM;
@@ -119,11 +111,15 @@ h2{
     margin-bottom: 3px;
 }
 
-[class*="dsc"]{
+.dsc{
     text-align: center;
     font-size: 18px;
     font-family: GothamP;
     line-height: 1.5;
+}
+.row{
+    width: 100%;
+    display: inline-block
 }
 
 [class*="img"]{
@@ -178,7 +174,7 @@ h2{
     width: 560px;
 }
 
-[class*="sectionEvent"]{
+.section3{
     background-color: #f5f5f5;
     width: 100%;
     overflow: hidden;
@@ -192,19 +188,7 @@ h2{
     margin-top: 9px;
 }
 
-[class*=containerBlock]{
-    width: 1280px;
-    overflow: hidden;
-    margin: 0 auto;
-    margin-bottom: 30px
-}
-
-[class="posterImg1"]{
-    background-image: url(../img/poster1.png);
-    float: left;
-}
-
-[class*="posterSum"]{
+.posterSum{
     font-size: 24px;
     font-family: GothamP;
     line-height: 1.25;
@@ -212,20 +196,20 @@ h2{
     margin-bottom: 50px;
 }
 
-[class*="posterTitle"]{
+.posterTitle{
     font-size: 48px;
     font-family: GothamP;
     line-height: 0.458;
     margin-top: 119px;
 }
 
-[class*="posterText"]{
+.posterText{
   font-size: 18px;
   font-family: GothamP;
   line-height: 1.667;
 }
 
-[class*="Part"]{
+[class*="testPart"]{
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -238,33 +222,18 @@ h2{
     margin-top: 111px;
 }
 
-[class="posterImg2"]{
-    background-image: url(../img/poster2.png);
-    float: right;
-}
-
-[class*="posterImg"]{
-    width: 384px;
-    height: 524px;
-    margin-right: 122px;
-    margin-top: 41px;
-    margin-left: 53px;
-}
-
-[class="posterImg3"]{
-    background-image: url(../img/poster3.png);
+.posterImgFL{
+    width: 50%;
     float: left;
 }
 
-[class="posterImg4"]{
-    background-image: url(../img/poster4.png);
+.posterImgFR{
+    width: 50%;
     float: right;
 }
 
-.posterContain4{
-    text-align: right;
+.posterContainLeft{
+    /* width: 40%;
+    box-sizing: border-box; */
 }
 
-.posterContain2{
-    text-align: right;
-}

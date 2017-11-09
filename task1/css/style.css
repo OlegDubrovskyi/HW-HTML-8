@@ -180,12 +180,13 @@ h2{
     overflow: hidden;
 }
 
-.month{
+.mainTitle{
     font-size: 24px;
     font-family: GothamP;
     line-height: 0.917;
     text-align: center;
     margin-top: 9px;
+    margin-bottom: 14px;
 }
 
 .posterSum{
@@ -200,7 +201,8 @@ h2{
     font-size: 48px;
     font-family: GothamP;
     line-height: 0.458;
-    margin-top: 119px;
+    margin-top: 106px;
+    line-height: 1;
 }
 
 .posterText{
@@ -219,21 +221,184 @@ h2{
 }
 
 .line{
-    margin-top: 111px;
+    margin-top: 65px;
+    width: 90%;
 }
 
 .posterImgFL{
     width: 50%;
     float: left;
+    text-align: center;
+    margin-top: 42px;
 }
 
 .posterImgFR{
     width: 50%;
     float: right;
+    text-align: center;
+    margin-top: 42px;
+}
+
+.posterContainRigth{
+    width: 49%;
+    float: right;
 }
 
 .posterContainLeft{
-    /* width: 40%;
-    box-sizing: border-box; */
+    width: 49%;
+    text-align: right;
+    float: left;
 }
+
+.section4{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.btnBlock{
+    margin: 0 auto;
+    margin-top: 77px;
+    overflow: hidden;
+}
+
+.image1{
+    width: 163px;
+    height: 63px;
+    background-image: url(../img/100+.png);
+    margin: 0 auto;
+}
+
+.image2{
+    width: 163px;
+    height: 63px;
+    background-image: url(../img/200+.png);
+    margin: 0 auto;
+}
+
+.description1{
+    font-size: 20px;
+    font-family: GothamPM;
+    line-height: 1.505;
+    text-align: center;
+    margin-top: 17px;
+}
+
+.description2{
+  font-size: 18px;
+  font-family: GothamP;
+  line-height: 1.667;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.btnOrder{
+    width: 50%;
+    float: left;
+    margin: 0 auto;
+}
+
+.skeleton{
+    width: 266px;
+    background-color: #ff1744;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-bottom: 82px;
+}
+
+.backgroundPadding{
+    background-color: #ffffff;
+    width: 264px;
+    padding: 1px;
+}
+
+.textOrder{
+    text-align: center;
+    font-size: 18px;
+    font-family: GothamPB;
+    color: red;
+    text-transform: uppercase;
+    line-height: 1.222;
+}
+
+.section5{
+    width: 100%;
+    background-image: url(../img/backgtound5.png);
+    background-position: center center;
+    background-position-y: 859px;
+    padding-bottom: 40px;
+}
+
+.ball{
+    position: relative;
+    top: -99px;
+    left: 62px;
+    width: 175px;
+    float: left;
+}
+
+.section5Title{
+    position: relative;
+    top: 65px;
+    right: 87px;
+}
+
+.crutch{
+    margin-bottom: 10px;
+}
+
+.section4Text1{
+    margin-top: 415px;
+    font-size: 24px;
+    font-family: GothamPM;
+    line-height: 1.25;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.section4Text2{
+    font-size: 19px;
+    font-family: GothamP;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.video{
+    margin-top: 64px;
+    text-align: center;
+}
+
+.buttonGift{
+    background-color: #ff1744;
+    width: 130px;
+    height: 34px;
+    border-radius: 5px;
+    margin-top: 116px;
+    position: relative;
+    top: -134px;
+    left: 948px;
+}
+
+.textGift{
+    font-size: 18px;
+    font-family: GothamP;
+    color: #ffffff;
+    line-height: 1.222;
+    text-align: center;
+}
+
+.testDiv{
+    width: 1170px;
+}
+
+iframe{
+    height: 345px;
+    width: 440px;
+}
+
+
+
+
 

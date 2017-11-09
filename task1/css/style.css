@@ -8,8 +8,13 @@
 .wrapper{
     width: 1170px;
     margin: 0 auto;
-    overflow: hidden;
 }
+
+.wrapper::after {
+     display: block;
+     content: "";
+     clear: both;
+   }
 
 .block1>h1{
     font-family: GothamPB;
@@ -336,6 +341,7 @@ h2{
     left: 62px;
     width: 175px;
     float: left;
+    z-index: 1;
 }
 
 .section5Title{
@@ -387,11 +393,6 @@ h2{
     color: #ffffff;
     line-height: 1.222;
     text-align: center;
-}
-
-.testDiv{
-    width: 1170px;
-    margin: 0 auto;
 }
 
 iframe{
